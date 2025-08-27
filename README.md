@@ -3,7 +3,7 @@
 An interactive **Streamlit dashboard** analyzing global **AI & Machine Learning job market** trends.  
 The dataset is **synthetic** (algorithmically generated) and simulates real-world patterns for **educational and research purposes**.  
 
-🔗 **Live Dashboard**: [Click Here](https://your-streamlit-app-link.com)  
+🔗 **Live Dashboard**: [Click Here](https://ai-jobs-2025-eda.streamlit.app/)  
 📂 **Dataset Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025/data)  
 📓 **Kaggle Notebook**: [AI Job Market & Salary Trends](https://www.kaggle.com/code/m7mdabobakr/ai-job-market-salary-trends) *(don’t forget to leave an **Up 👍** if you like it!)*  
 
