@@ -44,7 +44,7 @@ st.markdown("""
 - Great for **exploration, visualization, and career market research**.  
 
 ### 🔑 Key Features:
-- **15,000+ job listings** from **50+ countries** 🌍  
+- **15,000 job listings** from **50+ countries** 🌍  
 - **Salaries in multiple currencies** (normalized to USD 💵)  
 - **Experience levels**: Entry, Mid, Senior, Executive 🧑‍💻  
 - **Company size impact** on salary & job trends 🏢  
@@ -79,3 +79,4 @@ st.markdown("""
 ---
 👉 Use the sidebar to navigate to deeper **Analysis Pages**.
 """)
+
