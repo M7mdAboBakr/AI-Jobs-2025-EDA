@@ -26,6 +26,7 @@ fig = px.line(skill_df.sort_values('count', ascending=False),
               template='simple_white', markers=True,
               labels={'skill': 'Skill', 'count': '# of Jobs'})
 st.plotly_chart(fig, use_container_width=True)
+st.divider()
 
 # --- Job Title Count ---
 st.markdown("<h1 style='text-align: center; color: #ad79b5; font-size: 50px; font-weight: bold;'>Number of Jobs by Job Title</h1>", unsafe_allow_html=True)
@@ -77,4 +78,5 @@ fig = px.line(df.groupby('years_experience')['monthly_salary'].mean().reset_inde
               x='years_experience', y='monthly_salary',
               template='simple_white', markers=True,
               labels={'years_experience': 'Years of Experience', 'monthly_salary': 'Avg Monthly Salary'})
+
 st.plotly_chart(fig, use_container_width=True)
