@@ -11,7 +11,7 @@ The dataset is **synthetic** (algorithmically generated) and simulates real-worl
 
 ## 📊 Dataset Overview  
 
-- **15,000+ job listings** from **50+ countries** 🌍  
+- **15,000 job listings** from **50+ countries** 🌍  
 - Salaries in multiple currencies (normalized to USD 💵)  
 - **Experience levels**: Entry, Mid, Senior, Executive 🧑‍💻  
 - **Company size impact** on salaries & job demand 🏢  
