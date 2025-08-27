@@ -42,12 +42,6 @@ The dashboard is divided into **four interactive sections**:
 
 ---
 
-## 📸 Dashboard Preview  
-
-(Add screenshots/gifs here once available)
-
----
-
 ## 🛠️ Tech Stack  
 
 - **Python 3.10+**  
