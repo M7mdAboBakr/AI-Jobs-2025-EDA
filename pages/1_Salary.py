@@ -29,15 +29,16 @@ st.divider()
 
 # --- Job Title vs Salary ---
 st.markdown("<h1 style='text-align: center; color: #ad79b5; font-size: 50px; font-weight: bold;'>Average Monthly Salary by Job Title</h1>", unsafe_allow_html=True)
-fig2 = px.line(
+fig2 = px.bar(
     df.groupby('job_title')['monthly_salary'].mean().reset_index(),
     x='job_title',
     y='monthly_salary',
     title='',
+    color='job_title',
     template='simple_white',
-    markers=True,
     labels={'job_title': 'Job Title', 'monthly_salary': 'Avg Monthly Salary'}
 )
+fig2.update_traces(marker_line_color='white', marker_line_width=1, showlegend=False)
 st.plotly_chart(fig2, use_container_width=True)
 st.divider()
 
@@ -107,4 +108,5 @@ fig5 = px.bar(
 
 fig5.update_traces(marker_line_color='white', marker_line_width=1, showlegend=False) 
 col2.plotly_chart(fig5, use_container_width=True)
+
 
